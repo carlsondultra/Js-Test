@@ -9,7 +9,7 @@ export function Reduce(array, reducer, initialValue) {
 
 /*
 
-  A reducer function is the sum between the accumulator and the current value. When you pass the reducer function into the Eeduce() method, it will loop through each number
+  A reducer function is the sum between the accumulator and the current value. When you pass the reducer function into the Reduce() method, it will loop through each number
   in the array, and add it into the accumulator. This subsequently becomes the new accumulator for the next iteration of the loop. 
   This will continue until the end of the array, finally returning the accumulator. 
 
